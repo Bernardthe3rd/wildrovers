@@ -7,7 +7,7 @@ echo "🐳 Docker images opschonen (alleen dangling)..."
 docker image prune -f
 
 echo "🔄 Containers starten..."
-docker-compose up --build
+docker-compose up -d --build
 
 echo "⏳ Wachten op containers..."
 sleep 10
