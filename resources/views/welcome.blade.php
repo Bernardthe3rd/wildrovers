@@ -7,6 +7,7 @@
 {{--    php artisan serve , start backend. npm run dev is frontend --}}
 </head>
 <body>
+    <h1>Welcome to wild rover</h1>
 
 </body>
 </html>
